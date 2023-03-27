@@ -81,9 +81,8 @@ body {
   align-items: center;
   color: white;
   border-radius: 33px;
-background: linear-gradient(145deg, #273032, #2e393b);
-box-shadow:  15px 15px 30px #141819,
-             -15px -15px 30px #425255;
+  background: linear-gradient(145deg, #273032, #2e393b);
+  box-shadow: 15px 15px 30px #141819, -15px -15px 30px #425255;
 }
 
 .inner-box-1 > .circle {
@@ -116,7 +115,31 @@ box-shadow:  15px 15px 30px #141819,
   margin-bottom: 0px;
 }
 
+.inner-box-2 {
+  border: 2px solid black;
+  height: 25%;
+  margin: 20px 0px 5px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
+.fitness {
+  border: 2px solid white;
+  width: 70px;
+}
+
+.inner-box-3 {
+  border: 2px solid black;
+  height: 28%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.inner-box-3 > .box {
+  border: 2px solid wheat;
+  height: 56px;
+}
 
 .footer {
   border: 2px solid whitesmoke;
